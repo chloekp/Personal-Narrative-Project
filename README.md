@@ -32,11 +32,15 @@ Record a short video of your story to display here on your README. You can do th
 - Upload the thumbnail image to your repo.
 - Use the following markdown
 
-[![Thumbnail for my projet](nameOfThumbnail.png)]((https://youtube.com/shorts/oxCZdmRZJ80?feature=share))
+[![Thumbnail for my projet](thumbnail.png)]((https://youtube.com/shorts/oxCZdmRZJ80?feature=share))
 
 ## Story Description
 
 Write a description of the story that your animation showcases. Give addional context for your story here in the case your animation is more abstract and only has images and little text. Lastly, include what data in your project is represented in 2D arrays and how those directly relate to the story your animation showcase.
+
+As a Chinese American, I wanted to learn more about my culture through this project. I was able to look at flags from China, national sports from China, and popular national animals. I created arrays for the images I used to represent my culture as well as 2D arrays for the pixels of the images to put fun filters over them. I further examined how these images would look like through different lenses.
+
 ## Image Filter Analysis
 
 Choose at least 2 filters uses in your animation to explain how the pixels are modified. If you created a new image filter that was not one of the ones from this unit, make sure to explain and analyze that filter(s) before choosing ones that came from this unit.
+In the pixelate filter, the pixels of an image are averaged using a parameter, creates chunks for color, and divides those chunks by number of pixels. It then gets the average color in that chunk and stes the color to that. The blue filter gets all of the pixels from the image and traveres through them and sets the red and green values of each pixel to 0, leaving only blue.
